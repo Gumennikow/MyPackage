@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F19C3A4-ABB5-44BE-B91F-C8363CCA4A34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>МояПосылка</RootNamespace>
+    <AssemblyName>МояПосылка</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>ru</TargetCulture>
+    <ProductName>МояПосылка</ProductName>
+    <PublisherName>Гуменников Алексей Юрьевич</PublisherName>
+    <SuiteName>МояПосылка</SuiteName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>письмо3.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Internet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0C3CB54071E3B1D5D789AFA5A81D98F91BC05E7B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvancedDataGridView">
+      <HintPath>..\..\График Учета Рабочего Времени\packages\ADGV.0.1.0.10\lib\net40\AdvancedDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CueTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="МояПосылка2DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>МояПосылка2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="МояПосылка3DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>МояПосылка3DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="МояПосылка4DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>МояПосылка4DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="МояПосылкаDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>МояПосылкаDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="МояПосылка2DataSet.xsc">
+      <DependentUpon>МояПосылка2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="МояПосылка2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>МояПосылка2DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="МояПосылка2DataSet.xss">
+      <DependentUpon>МояПосылка2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="МояПосылка3DataSet.xsc">
+      <DependentUpon>МояПосылка3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="МояПосылка3DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>МояПосылка3DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="МояПосылка3DataSet.xss">
+      <DependentUpon>МояПосылка3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="МояПосылка4DataSet.xsc">
+      <DependentUpon>МояПосылка4DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="МояПосылка4DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>МояПосылка4DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="МояПосылка4DataSet.xss">
+      <DependentUpon>МояПосылка4DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="МояПосылкаDataSet.xsc">
+      <DependentUpon>МояПосылкаDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="МояПосылкаDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>МояПосылкаDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="МояПосылкаDataSet.xss">
+      <DependentUpon>МояПосылкаDataSet.xsd</DependentUpon>
+    </None>
+    <Content Include="МояПосылкаTemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\подсказка.png" />
+    <None Include="Resources\подсказка2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\отменаПоиска.png" />
+    <None Include="Resources\поиск.png" />
+    <None Include="Resources\поиск1.png" />
+    <None Include="Resources\добавить.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="письмо3.ico" />
+    <None Include="Resources\выделить2.png" />
+    <None Include="Resources\копировать.png" />
+    <None Include="Resources\вставить.png" />
+    <None Include="Resources\Удалить %282%29.png" />
+    <None Include="Resources\добавитьСтроку.png" />
+    <None Include="Resources\addRows.png" />
+    <Content Include="МояПосылка3.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="МояПосылка4.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\отправка3.png" />
+    <None Include="Resources\получение.png" />
+    <None Include="Resources\ПочтаРу.png" />
+    <None Include="Resources\Емайл.png" />
+    <None Include="Resources\прикрепитьФайл.png" />
+    <None Include="Resources\отменить.png" />
+    <None Include="Resources\вернуть.png" />
+    <None Include="Resources\размерТекста.png" />
+    <None Include="Resources\цветТекста.png" />
+    <None Include="Resources\жирный.png" />
+    <None Include="Resources\полужирный.png" />
+    <None Include="Resources\подчеркнутый.png" />
+    <None Include="Resources\зачеркнутый.png" />
+    <None Include="Resources\курсив.png" />
+    <None Include="Resources\заголовок3.png" />
+    <None Include="Resources\заголовок2.png" />
+    <None Include="Resources\заголовок1.png" />
+    <None Include="Resources\вырезать2.png" />
+    <None Include="Resources\лево.png" />
+    <None Include="Resources\центр.png" />
+    <None Include="Resources\право.png" />
+    <None Include="Resources\вырезать.png" />
+    <None Include="Resources\очистить3.png" />
+    <None Include="Resources\ссылка.png" />
+    <None Include="Resources\сохранить2.png" />
+    <None Include="Resources\удалить3.png" />
+    <None Include="Resources\bold.png" />
+    <None Include="Resources\bold2.png" />
+    <None Include="Resources\italic.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\attach.png" />
+    <None Include="Resources\открытьФайл.png" />
+    <None Include="Resources\gmail.png" />
+    <None Include="Resources\Outlook.png" />
+    <None Include="Resources\Yahoo2.png" />
+    <None Include="Resources\email2.png" />
+    <None Include="Resources\rambler.png" />
+    <None Include="Resources\yandex.png" />
+    <Content Include="МояПосылка.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="МояПосылка2.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
