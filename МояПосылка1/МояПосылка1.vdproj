@@ -16,25 +16,25 @@
         "Entry"
         {
         "MsmKey" = "8:_4356B7C0012976D783C74F35A1A162DC"
-        "OwnerKey" = "8:_AF4AE418DB0E4B219112D65B8CD28719"
+        "OwnerKey" = "8:_94BDCC5D31AA4E8EA84BC8656D0B891E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_AF4AE418DB0E4B219112D65B8CD28719"
+        "MsmKey" = "8:_94BDCC5D31AA4E8EA84BC8656D0B891E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B7A573E475384954A3FD728E238E7061"
+        "MsmKey" = "8:_9E2FD923C9D847ACB7E799F2585B896D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_F9FE4DEF32FC31DE930B1965270B8110"
-        "OwnerKey" = "8:_AF4AE418DB0E4B219112D65B8CD28719"
+        "OwnerKey" = "8:_94BDCC5D31AA4E8EA84BC8656D0B891E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -46,7 +46,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AF4AE418DB0E4B219112D65B8CD28719"
+        "OwnerKey" = "8:_94BDCC5D31AA4E8EA84BC8656D0B891E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -181,7 +181,7 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B7A573E475384954A3FD728E238E7061"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9E2FD923C9D847ACB7E799F2585B896D"
             {
             "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\письмо3.ico"
             "TargetName" = "8:письмо3.ico"
@@ -289,7 +289,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:МояПосылка1"
         "ProductCode" = "8:{C1C59744-6177-415B-AC0C-60032333E342}"
-        "PackageCode" = "8:{05EE812C-D87F-42FA-9C61-89F1FF09AD9B}"
+        "PackageCode" = "8:{92FC9B60-04D0-4FDB-885F-6F61337D9550}"
         "UpgradeCode" = "8:{8A9EA086-F2EF-4104-A285-D4F0CC69F41B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -306,7 +306,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:https://gumennikov.blogspot.ru"
-        "ARPPRODUCTICON" = "8:_B7A573E475384954A3FD728E238E7061"
+        "ARPPRODUCTICON" = "8:_9E2FD923C9D847ACB7E799F2585B896D"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -808,91 +808,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6827D638BE15410CA8B2ECED58541BD5"
-            {
-            "SourcePath" = "8:"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_5D4664AEF2E44DC28E0AF782F2B05AE5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:LocalizedResourceDlls"
-            "OutputProjectGuid" = "8:{9F19C3A4-ABB5-44BE-B91F-C8363CCA4A34}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7BC20E01656D415081E984D0268F0803"
-            {
-            "SourcePath" = "8:"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_5D4664AEF2E44DC28E0AF782F2B05AE5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:SourceFiles"
-            "OutputProjectGuid" = "8:{9F19C3A4-ABB5-44BE-B91F-C8363CCA4A34}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7D1FA7AA538944DB8A71263F205FBB90"
-            {
-            "SourcePath" = "8:"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_5D4664AEF2E44DC28E0AF782F2B05AE5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Documentation"
-            "OutputProjectGuid" = "8:{9F19C3A4-ABB5-44BE-B91F-C8363CCA4A34}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8B8B74A44EA647468CB59B02517D182D"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_22D9FD9817EA4B28BFC667A75FFC1560"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
@@ -920,7 +836,7 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A4D087453E3E4C538D83172A5E9A08B6"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_25B03103F25A439680B41F469392130A"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
@@ -948,7 +864,91 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_AF4AE418DB0E4B219112D65B8CD28719"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5DC5551AE2E74C4CBB4EE106E2289924"
+            {
+            "SourcePath" = "8:"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_5D4664AEF2E44DC28E0AF782F2B05AE5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:LocalizedResourceDlls"
+            "OutputProjectGuid" = "8:{9F19C3A4-ABB5-44BE-B91F-C8363CCA4A34}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7CBED2655ACC47FE9838090CA781E89B"
+            {
+            "SourcePath" = "8:"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_5D4664AEF2E44DC28E0AF782F2B05AE5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:XmlSerializer"
+            "OutputProjectGuid" = "8:{9F19C3A4-ABB5-44BE-B91F-C8363CCA4A34}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8C1F264AC5704FD885FAD2996396CB1B"
+            {
+            "SourcePath" = "8:"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_5D4664AEF2E44DC28E0AF782F2B05AE5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:SourceFiles"
+            "OutputProjectGuid" = "8:{9F19C3A4-ABB5-44BE-B91F-C8363CCA4A34}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_94BDCC5D31AA4E8EA84BC8656D0B891E"
             {
             "SourcePath" = "8:..\\МояПосылка\\obj\\Debug\\МояПосылка.exe"
             "TargetName" = "8:"
@@ -976,7 +976,35 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D0F899DC7FE9483FBF9952B0B6F8DD73"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BDDF394F363843E8941FDE12F49403F5"
+            {
+            "SourcePath" = "8:"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_5D4664AEF2E44DC28E0AF782F2B05AE5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Documentation"
+            "OutputProjectGuid" = "8:{9F19C3A4-ABB5-44BE-B91F-C8363CCA4A34}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_CF11CCD6C7484B12A1163FA5FC7C3EDC"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
@@ -998,34 +1026,6 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Symbols"
-            "OutputProjectGuid" = "8:{9F19C3A4-ABB5-44BE-B91F-C8363CCA4A34}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D5BEC25574404E4D9FF81D200D263ED0"
-            {
-            "SourcePath" = "8:"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_5D4664AEF2E44DC28E0AF782F2B05AE5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:XmlSerializer"
             "OutputProjectGuid" = "8:{9F19C3A4-ABB5-44BE-B91F-C8363CCA4A34}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
