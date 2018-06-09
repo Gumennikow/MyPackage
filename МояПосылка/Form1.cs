@@ -850,6 +850,14 @@ namespace МояПосылка
                             ws_New.Cells[j + 2, i + 1] = (advancedDataGridView[i, j].Value).ToString();
                         }
                     }
+                    Excel.Range tRange = ws_New.UsedRange;
+                    tRange.Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+                    tRange.Borders.Weight = Excel.XlBorderWeight.xlThin;
+                    Excel.Range cellRange = (Excel.Range)ws_New.Cells[1, 1];
+                    Excel.Range rowRange = cellRange.EntireRow;
+                    rowRange.Insert(Excel.XlInsertShiftDirection.xlShiftDown, false);
+                    Microsoft.Office.Interop.Excel.Range Табель = (Microsoft.Office.Interop.Excel.Range)ws_New.Cells[1, 1];
+                    Табель.Value2 = txtШапка.Text;
                     exApp_New.Visible = true;
                 }
                 catch (Exception ex)
@@ -874,6 +882,7 @@ namespace МояПосылка
                 if ((myStream = saveFileDialog1.OpenFile()) != null)
                 {
                     StreamWriter myWritet = new StreamWriter(myStream);
+                    myWritet.WriteLine(txtШапка.Text);
                     try
                     {
                         for (int i = 0; i < advancedDataGridView.RowCount; i++)
@@ -896,6 +905,7 @@ namespace МояПосылка
                     }
                 }
             }
+            System.Diagnostics.Process.Start(saveFileDialog1.FileName);
         }
 
         private void linkОчиститьВсе_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -1342,6 +1352,14 @@ namespace МояПосылка
                             ws2_New.Cells[j + 2, i + 1] = (advancedDataGridView2[i, j].Value).ToString();
                         }
                     }
+                    Excel.Range tRange = ws_New.UsedRange;
+                    tRange.Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+                    tRange.Borders.Weight = Excel.XlBorderWeight.xlThin;
+                    Excel.Range cellRange = (Excel.Range)ws_New.Cells[1, 1];
+                    Excel.Range rowRange = cellRange.EntireRow;
+                    rowRange.Insert(Excel.XlInsertShiftDirection.xlShiftDown, false);
+                    Microsoft.Office.Interop.Excel.Range Табель = (Microsoft.Office.Interop.Excel.Range)ws_New.Cells[1, 1];
+                    Табель.Value2 = txtШапка2.Text;
                     exApp2_New.Visible = true;
                 }
                 catch (Exception ex)
@@ -1366,6 +1384,7 @@ namespace МояПосылка
                 if ((myStream = saveFileDialog1.OpenFile()) != null)
                 {
                     StreamWriter myWritet = new StreamWriter(myStream);
+                    myWritet.WriteLine(txtШапка2.Text);
                     try
                     {
                         for (int i = 0; i < advancedDataGridView2.RowCount; i++)
@@ -1388,6 +1407,7 @@ namespace МояПосылка
                     }
                 }
             }
+            System.Diagnostics.Process.Start(saveFileDialog1.FileName);
         }
 
         private void linkОчиститьВсе2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -3154,6 +3174,9 @@ namespace МояПосылка
 
         private void linkАвторизация2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            panelОтправкаЕмайл.Visible = false;
+            panelИнструменты.Visible = false;
+            panelСохранить.Visible = false;
             dataGridView.Visible = false;
             treeEmail.Visible = false;
             panelОтправка.Visible = false;

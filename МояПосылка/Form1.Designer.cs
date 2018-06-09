@@ -1270,9 +1270,9 @@
             this.panelШапка.Controls.Add(this.label22);
             this.panelШапка.Controls.Add(this.label21);
             this.panelШапка.Controls.Add(this.btnЗакрыть);
-            this.panelШапка.Location = new System.Drawing.Point(750, 7);
+            this.panelШапка.Location = new System.Drawing.Point(766, 7);
             this.panelШапка.Name = "panelШапка";
-            this.panelШапка.Size = new System.Drawing.Size(111, 23);
+            this.panelШапка.Size = new System.Drawing.Size(95, 18);
             this.panelШапка.TabIndex = 27;
             this.panelШапка.Visible = false;
             // 
@@ -4403,6 +4403,7 @@
             this.labelПолужирный.Size = new System.Drawing.Size(28, 28);
             this.labelПолужирный.TabIndex = 6;
             this.Hint.SetToolTip(this.labelПолужирный, "Полужирный");
+            this.labelПолужирный.Click += new System.EventHandler(this.labelПолужирный_firstClick);
             this.labelПолужирный.MouseLeave += new System.EventHandler(this.labelПолужирный_MouseLeave);
             this.labelПолужирный.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelПолужирный_MouseMove);
             // 
