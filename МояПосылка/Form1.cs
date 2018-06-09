@@ -802,7 +802,7 @@ namespace МояПосылка
 
         private void linkЕксель_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            saveFileDialog1.Filter = "Excel files (*.xls)|*.xls|Excel files (*.xlsx)|*.xlsx";
+            saveFileDialog1.Filter = "Excel files 97-2003(*.xls)|*.xls|Excel files (*.xlsx)|*.xlsx";
             saveFileDialog1.FilterIndex = 2;
             saveFileDialog1.FileName = "Почтовые отправления";
             saveFileDialog1.Title = "Сохранение документа";
@@ -1310,7 +1310,7 @@ namespace МояПосылка
 
         private void linkЕксель2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            saveFileDialog1.Filter = "Excel files (*.xls)|*.xls|Excel files (*.xlsx)|*.xlsx";
+            saveFileDialog1.Filter = "Excel files 97-2003(*.xls)|*.xls|Excel files (*.xlsx)|*.xlsx";
             saveFileDialog1.FilterIndex = 2;
             saveFileDialog1.FileName = "Получение почты";
             saveFileDialog1.Title = "Сохранение документа";
@@ -1352,13 +1352,13 @@ namespace МояПосылка
                             ws2_New.Cells[j + 2, i + 1] = (advancedDataGridView2[i, j].Value).ToString();
                         }
                     }
-                    Excel.Range tRange = ws_New.UsedRange;
+                    Excel.Range tRange = ws2_New.UsedRange;
                     tRange.Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
                     tRange.Borders.Weight = Excel.XlBorderWeight.xlThin;
-                    Excel.Range cellRange = (Excel.Range)ws_New.Cells[1, 1];
+                    Excel.Range cellRange = (Excel.Range)ws2_New.Cells[1, 1];
                     Excel.Range rowRange = cellRange.EntireRow;
                     rowRange.Insert(Excel.XlInsertShiftDirection.xlShiftDown, false);
-                    Microsoft.Office.Interop.Excel.Range Табель = (Microsoft.Office.Interop.Excel.Range)ws_New.Cells[1, 1];
+                    Microsoft.Office.Interop.Excel.Range Табель = (Microsoft.Office.Interop.Excel.Range)ws2_New.Cells[1, 1];
                     Табель.Value2 = txtШапка2.Text;
                     exApp2_New.Visible = true;
                 }
